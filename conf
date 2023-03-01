@@ -1,0 +1,20 @@
+# source cluster over writes
+source.max.poll.records = 20000
+source.receive.buffer.bytes = 33554432
+source.send.buffer.bytes = 33554432
+source.max.partition.fetch.bytes = 33554432
+source.message.max.bytes = 37755000
+source.compression.type = gzip
+source.max.request.size = 26214400
+source.buffer.memory = 524288000
+source.batch.size = 524288
+# destination cluster over writes
+destination.max.poll.records = 20000
+destination.receive.buffer.bytes = 33554432
+destination.send.buffer.bytes = 33554432
+destination.max.partition.fetch.bytes = 33554432
+destination.message.max.bytes = 37755000
+destination.compression.type = gzip
+destination.max.request.size = 26214400
+destination.buffer.memory = 524288000
+destination.batch.size = 52428
